@@ -1,0 +1,7 @@
+# Exercício 7 - Filtrando notas acima da média
+notas = [5.5, 7.0, 4.2, 8.5, 9.0, 6.0]
+aprovados = []
+for nota in notas:
+    if nota >= 6.0:
+        aprovados.append(nota)
+print(aprovados)
